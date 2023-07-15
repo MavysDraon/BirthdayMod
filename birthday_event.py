@@ -1,4 +1,13 @@
 def birthday_event(player):
+    """This function is called on the player's birthday.
+
+    Args:
+        player: The player object.
+
+    Returns:
+        None.
+    """
+
     # Get the player's birthday.
     birthday = player.get_birthday()
 
